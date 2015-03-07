@@ -1,0 +1,114 @@
+#session_email{
+   float: right;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+#songstable{
+    height: 420px;
+}
+
+#tablePlaylist{
+    tbody {
+        height: 130px;
+    }
+    height: 150px;
+     tbody td, thead th {
+        width: 100%;
+        float: left;
+    }
+}
+
+#tableAddSongToPlaylist{
+    tbody td, thead th {
+        width: 100%;
+        float: left;
+    }
+}
+
+#tablePlaylistSongs{
+    tbody {
+        height: 130px;
+    }
+    height: 150px;
+}
+
+
+
+thead, tbody, tr, td, th { display: block; }
+
+tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+thead th {
+    height: 30px;
+
+    text-align: left;
+}
+
+tbody {
+    height: 390px;
+    overflow-y: auto;
+}
+
+thead {
+    /* fallback */
+}
+
+
+tbody td, thead th {
+    width: 50%;
+    float: left;
+}
+
+#div_music_player{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#prevSong{
+    float: left;
+    text-align: left;
+}
+
+#nextSong{
+    float: right;
+}
+
+#playlist_bar{
+    width: 400px;
+    margin-right: 5px;
+}
+
+#playlist_selected{
+    color: #000;
+}
+
+#begin_playlist_div{
+    text-align: center;
+}
+
+#actual_player{
+    text-align: center;
+}
+
+#fastforward{
+    padding-right: 275px;
+}
+
+#backward{
+    padding-left: 275px;
+}
+
+#stopSong{
+position:absolute;
+    left:-110%;
+    bottom:60%;
+}
